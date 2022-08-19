@@ -23,11 +23,9 @@ class ControlsOverlay extends FlxSpriteGroup
 		controlsHelp.alignment = LEFT;
 		controlsHelp.font = HelperFunctions.returnHudFont(controlsHelp);
 		controlsHelp.updateHitbox();
-		add(controlsHelp);
 		if (controlsHelp.text == "CONTROLS\n")
-		{
-			controlsHelp.visible = false;
-		}
+			controlsHelp.alpha = 0.00001;
+		add(controlsHelp);
 	}
 
 	override function update(elapsed:Float)

@@ -896,10 +896,10 @@ class FreeplayState extends MusicBeatState
 	{
 		if (!accepted)
 		{
-			mechDiffBG.visible = true;
-			mechDiffTextinfo.visible = true;
-			mechDiffText.visible = true;
-			mechDiffMult.visible = true;
+			mechDiffBG.alpha = 1;
+			mechDiffTextinfo.alpha = 1;
+			mechDiffText.alpha = 1;
+			mechDiffMult.alpha = 1;
 
 			curMechDifficulty += change;
 
@@ -920,10 +920,10 @@ class FreeplayState extends MusicBeatState
 
 			if (HelperFunctions.getSongData(songs[curSelected[freeplayType]].songName.toLowerCase(), 'hasmech') == "false")
 			{
-				mechDiffBG.visible = false;
-				mechDiffTextinfo.visible = false;
-				mechDiffText.visible = false;
-				mechDiffMult.visible = false;
+				mechDiffBG.alpha = 0.00001;
+				mechDiffTextinfo.alpha = 0.00001;
+				mechDiffText.alpha = 0.00001;
+				mechDiffMult.alpha = 0.00001;
 			}
 
 			switch (curMechDifficulty)
