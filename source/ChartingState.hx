@@ -251,7 +251,7 @@ class ChartingState extends MusicBeatState
 		bendy.antialiasing = FlxG.save.data.highquality;
 		bendy.updateHitbox();
 		bendy.scrollFactor.set();
-		bendy.alpha = 0;
+		bendy.alpha = 0.00001;
 		add(bendy);
 
 		cuphead = new FlxSprite(-900, -800);
@@ -260,7 +260,7 @@ class ChartingState extends MusicBeatState
 		cuphead.antialiasing = FlxG.save.data.highquality;
 		cuphead.updateHitbox();
 		cuphead.scrollFactor.set();
-		cuphead.alpha = 0;
+		cuphead.alpha = 0.00001;
 		add(cuphead);
 
 		sans = new FlxSprite(-210, -630);
@@ -269,7 +269,7 @@ class ChartingState extends MusicBeatState
 		sans.antialiasing = FlxG.save.data.highquality;
 		sans.updateHitbox();
 		sans.scrollFactor.set();
-		sans.alpha = 0;
+		sans.alpha = 0.00001;
 		add(sans);
 
 		jumpscareStatic = new FlxSprite(0, 0);
@@ -281,7 +281,7 @@ class ChartingState extends MusicBeatState
 		jumpscareStatic.alpha = 1.0;
 		jumpscareStatic.setGraphicSize(Std.int(jumpscareStatic.width * 1.3));
 		jumpscareStatic.screenCenter();
-		jumpscareStatic.visible = false;
+		jumpscareStatic.alpha = 0.00001;
 		add(jumpscareStatic);
 
 		if (!MainMenuState.debugTools)
@@ -865,7 +865,7 @@ class ChartingState extends MusicBeatState
 		{
 			if (!MainMenuState.debugTools)
 			{
-				if (PlayState.SONG.song.toLowerCase() == 'despair' && bendy.alpha == 0)
+				if (PlayState.SONG.song.toLowerCase() == 'despair' && bendy.alpha <= 0)
 				{
 					bendy.alpha = 1;
 					bendy.animation.play('play');
@@ -881,7 +881,7 @@ class ChartingState extends MusicBeatState
 
 					new FlxTimer().start(0.66, function(tmr:FlxTimer)
 					{
-						jumpscareStatic.visible = true;
+						jumpscareStatic.alpha = 1;
 						FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 						bendy.alpha = 0.0;
 					});
@@ -893,7 +893,7 @@ class ChartingState extends MusicBeatState
 					});
 				}
 
-				if (PlayState.SONG.song.toLowerCase() == 'devils-gambit' && cuphead.alpha == 0)
+				if (PlayState.SONG.song.toLowerCase() == 'devils-gambit' && cuphead.alpha <= 0)
 				{
 					cuphead.alpha = 1;
 					cuphead.animation.play('play');
@@ -906,7 +906,7 @@ class ChartingState extends MusicBeatState
 
 					new FlxTimer().start(0.91, function(tmr:FlxTimer)
 					{
-						jumpscareStatic.visible = true;
+						jumpscareStatic.alpha = 1;
 						FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 						cuphead.alpha = 0.0;
 					});
@@ -918,7 +918,7 @@ class ChartingState extends MusicBeatState
 					});
 				}
 
-				if (PlayState.SONG.song.toLowerCase() == 'bad-time' && sans.alpha == 0)
+				if (PlayState.SONG.song.toLowerCase() == 'bad-time' && sans.alpha <= 0)
 				{
 					sans.alpha = 1;
 					sans.animation.play('play');
@@ -931,7 +931,7 @@ class ChartingState extends MusicBeatState
 
 					new FlxTimer().start(0.875, function(tmr:FlxTimer)
 					{
-						jumpscareStatic.visible = true;
+						jumpscareStatic.alpha = 1;
 						FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 						sans.alpha = 0.0;
 					});
@@ -989,7 +989,7 @@ class ChartingState extends MusicBeatState
 		}
 		if (FlxG.keys.justPressed.ANY)
 		{
-			if (PlayState.SONG.song.toLowerCase() == 'despair' && bendy.alpha == 0 && !MainMenuState.debugTools)
+			if (PlayState.SONG.song.toLowerCase() == 'despair' && bendy.alpha <= 0 && !MainMenuState.debugTools)
 			{
 				bendy.alpha = 1;
 				bendy.animation.play('play');
@@ -1001,7 +1001,7 @@ class ChartingState extends MusicBeatState
 				FlxTransitionableState.skipNextTransOut = true;
 				new FlxTimer().start(0.66, function(tmr:FlxTimer)
 				{
-					jumpscareStatic.visible = true;
+					jumpscareStatic.alpha = 1;
 					FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 				});
 
@@ -1011,7 +1011,7 @@ class ChartingState extends MusicBeatState
 					FlxG.switchState(new JumpscareState());
 				});
 			}
-			if (PlayState.SONG.song.toLowerCase() == 'devils-gambit' && cuphead.alpha == 0 && !MainMenuState.debugTools)
+			if (PlayState.SONG.song.toLowerCase() == 'devils-gambit' && cuphead.alpha <= 0 && !MainMenuState.debugTools)
 			{
 				cuphead.alpha = 1;
 				cuphead.animation.play('play');
@@ -1021,7 +1021,7 @@ class ChartingState extends MusicBeatState
 				FlxTransitionableState.skipNextTransOut = true;
 				new FlxTimer().start(0.91, function(tmr:FlxTimer)
 				{
-					jumpscareStatic.visible = true;
+					jumpscareStatic.alpha = 1;
 					FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 				});
 
@@ -1031,7 +1031,7 @@ class ChartingState extends MusicBeatState
 					FlxG.switchState(new JumpscareState());
 				});
 			}
-			if (PlayState.SONG.song.toLowerCase() == 'bad-time' && sans.alpha == 0 && !MainMenuState.debugTools)
+			if (PlayState.SONG.song.toLowerCase() == 'bad-time' && sans.alpha <= 0 && !MainMenuState.debugTools)
 			{
 				sans.alpha = 1;
 				sans.animation.play('play');
@@ -1041,7 +1041,7 @@ class ChartingState extends MusicBeatState
 				FlxTransitionableState.skipNextTransOut = true;
 				new FlxTimer().start(0.875, function(tmr:FlxTimer)
 				{
-					jumpscareStatic.visible = true;
+					jumpscareStatic.alpha = 1;
 					FlxTween.color(jumpscareStatic, 1.85, FlxColor.WHITE, FlxColor.BLACK, {ease: FlxEase.quadOut});
 				});
 

@@ -48,13 +48,13 @@ class CollisionTest extends FlxState
 			collisionTest.angle += 2;
 
 		if (FlxCollision.pixelPerfectCheck(heart, collisionTest))
-			pixelPerfectbox.visible = true;
+			pixelPerfectbox.alpha = 1;
 		else
-			pixelPerfectbox.visible = false;
+			pixelPerfectbox.alpha = 0.00001;
 
 		if (FlxG.overlap(heart, collisionTest))
-			overlapBox.visible = true;
+			overlapBox.alpha = 1;
 		else
-			overlapBox.visible = false;
+			overlapBox.alpha = 0.00001;
 	}
 }

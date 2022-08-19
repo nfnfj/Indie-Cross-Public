@@ -17,15 +17,10 @@ class VideoHandler
 {
 	public var finishCallback:Void->Void;
 	public var stateCallback:FlxState;
-
 	public var bitmap:VlcBitmap;
-
 	public var sprite:FlxSprite;
-
 	public var fadeToBlack:Bool = false;
-
 	public var fadeFromBlack:Bool = false;
-
 	public var allowSkip:Bool = false;
 
 	public function new()
@@ -37,19 +32,12 @@ class VideoHandler
 			?midSong:Bool = false):Void
 	{
 		#if cpp
-		if (!midSong)
-		{
-			if (FlxG.sound.music != null)
-			{
-				FlxG.sound.music.stop();
-			}
-		}
+		if (!midSong && FlxG.sound.music != null)
+			FlxG.sound.music.stop();
 
 		bitmap = new VlcBitmap();
-
 		bitmap.set_width(bitmap.calc(0));
 		bitmap.set_height(bitmap.calc(1));
-
 		bitmap.onVideoReady = onVLCVideoReady;
 		bitmap.onComplete = onVLCComplete;
 		bitmap.onError = onVLCError;
@@ -76,9 +64,7 @@ class VideoHandler
 
 		if (outputTo != null)
 		{
-			// lol this is bad kek
 			bitmap.alpha = 0;
-
 			sprite = outputTo;
 		}
 		#end
@@ -107,9 +93,7 @@ class VideoHandler
 		#end
 
 		if (fadeFromBlack)
-		{
 			FlxG.camera.fade(FlxColor.BLACK, 0, false);
-		}
 	}
 
 	public function onVLCComplete()
@@ -120,34 +104,24 @@ class VideoHandler
 		// Clean player, just in case! Actually no.
 
 		if (fadeToBlack)
-		{
 			FlxG.camera.fade(FlxColor.BLACK, 0, false);
-		}
 
 		if (fadeFromBlack)
-		{
 			FlxG.camera.fade(FlxColor.BLACK, 1, true);
-		}
 
 		trace("Big, Big Chungus, Big Chungus!");
 
 		new FlxTimer().start(0.3, function(tmr:FlxTimer)
 		{
 			if (finishCallback != null)
-			{
 				finishCallback();
-			}
 			else if (stateCallback != null)
-			{
 				LoadingState.loadAndSwitchState(stateCallback);
-			}
 
 			bitmap.dispose();
 
 			if (FlxG.game.contains(bitmap))
-			{
 				FlxG.game.removeChild(bitmap);
-			}
 		});
 		#end
 	}
@@ -155,50 +129,30 @@ class VideoHandler
 	public function kill()
 	{
 		#if cpp
+		bitmap.visible = false;
 		bitmap.stop();
 
 		if (finishCallback != null)
-		{
 			finishCallback();
-		}
-
-		bitmap.visible = false;
 		#end
 	}
 
 	function onVLCError()
 	{
 		if (finishCallback != null)
-		{
 			finishCallback();
-		}
 		else if (stateCallback != null)
-		{
 			LoadingState.loadAndSwitchState(stateCallback);
-		}
 	}
 
 	function update(e:Event)
 	{
-		if (FlxG.keys.justPressed.ENTER #if android || FlxG.android.justReleased.BACK #end)
-		{
-			trySkip();
-		}
-
-		bitmap.volume = FlxG.sound.volume + 0.3; // shitty volume fix. then make it louder.
+		if (FlxG.keys.justPressed.ENTER #if android || FlxG.android.justReleased.BACK #end && (allowSkip && bitmap.isPlaying))
+			onVLCComplete();
 
 		if (FlxG.sound.volume <= 0.1)
 			bitmap.volume = 0;
-	}
-
-	function trySkip()
-	{
-		if (allowSkip)
-		{
-			if (bitmap.isPlaying)
-			{
-				onVLCComplete();
-			}
-		}
+		else
+			bitmap.volume = FlxG.sound.volume;
 	}
 }

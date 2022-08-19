@@ -367,7 +367,7 @@ class CreditsMenu extends MusicBeatState
 		selctionHighlighter.setGraphicSize(Std.int(selctionHighlighter.width * 0.7));
 		selctionHighlighter.updateHitbox();
 		selctionHighlighter.antialiasing = FlxG.save.data.highquality;
-		selctionHighlighter.visible = false;
+		selctionHighlighter.alpha = 0.00001;
 		add(selctionHighlighter);
 
 		bigIcon = new FlxSprite(718, -50);
@@ -392,7 +392,7 @@ class CreditsMenu extends MusicBeatState
 		quoteBack.updateHitbox();
 		quoteBack.antialiasing = FlxG.save.data.highquality;
 		quoteBack.blend = OVERLAY;
-		quoteBack.visible = false;
+		quoteBack.alpha = 0.00001;
 		add(quoteBack);
 
 		specialThanksText = new FlxText(quoteBack.x, quoteBack.y + 120, 500, 'Press TAB for Special Thanks');
@@ -592,17 +592,17 @@ class CreditsMenu extends MusicBeatState
 
 		selXLerp = smallIcon.x - 14;
 		selYLerp = smallIcon.y - 14;
-		selctionHighlighter.visible = true;
+		selctionHighlighter.alpha = 1;
 
 		smallIcon.alpha = 1.0;
 
 		credLargeName.text = credits[sel][0];
 		credQuoteText.text = credits[sel][1];
 
-		quoteBack.visible = true;
+		quoteBack.alpha = 1;
 		if (credQuoteText.text == " ")
 		{
-			quoteBack.visible = false;
+			quoteBack.alpha = 0.00001;
 		}
 
 		switch (credits[sel][2])
