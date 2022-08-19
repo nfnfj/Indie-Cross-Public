@@ -153,6 +153,6 @@ class VideoHandler
 		if (FlxG.sound.volume <= 0.1)
 			bitmap.volume = 0;
 		else
-			bitmap.volume = FlxG.sound.volum;
+			bitmap.volume = FlxG.sound.volume;
 	}
 }
