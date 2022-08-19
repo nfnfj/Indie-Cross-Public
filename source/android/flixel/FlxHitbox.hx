@@ -28,9 +28,6 @@ class FlxHitbox extends FlxSpriteGroup
 	public var buttonAttackLeft:FlxButton = new FlxButton(0, 0);
 	public var buttonAttackRight:FlxButton = new FlxButton(0, 0);
 
-	var offsetFir:Int = 0;
-	var offsetSec:Int = 0;
-
 	/**
 	 * Create the zone.
 	 */
@@ -38,10 +35,8 @@ class FlxHitbox extends FlxSpriteGroup
 	{
 		super();
 
-		scrollFactor.set();
-
-		offsetFir = (FlxG.save.data.mechsInputVariants ? Std.int(FlxG.height / 4) * 3 : 0);
-		offsetSec = (FlxG.save.data.mechsInputVariants ? 0 : Std.int(FlxG.height / 4));
+		final offsetFir:Int = (FlxG.save.data.mechsInputVariants ? Std.int(FlxG.height / 4) * 3 : 0);
+		final offsetSec:Int = (FlxG.save.data.mechsInputVariants ? 0 : Std.int(FlxG.height / 4));
 
 		switch (mode)
 		{
@@ -51,33 +46,35 @@ class FlxHitbox extends FlxSpriteGroup
 				add(buttonUp = createHint(FlxG.width / 2, 0, Std.int(FlxG.width / 4), FlxG.height, 0x00FF00));
 				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), 0, Std.int(FlxG.width / 4), FlxG.height, 0xFF0000));
 			case SINGLEATTACK:
-				add(buttonLeft = createHint(0, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
-				add(buttonDown = createHint(FlxG.width / 4, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
-				add(buttonUp = createHint(FlxG.width / 2, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
-				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
+				add(buttonLeft = createHint(0, offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
+				add(buttonDown = createHint(FlxG.width / 4, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
+				add(buttonUp = createHint(FlxG.width / 2, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
+				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
 				add(buttonAttackLeft = createHint(0, offsetFir, FlxG.width, Std.int(FlxG.height / 4), 0xFF0000));
 			case SINGLEDODGE:
-				add(buttonLeft = createHint(0, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
-				add(buttonDown = createHint(FlxG.width / 4, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
-				add(buttonUp = createHint(FlxG.width / 2, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
-				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
+				add(buttonLeft = createHint(0, offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
+				add(buttonDown = createHint(FlxG.width / 4, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
+				add(buttonUp = createHint(FlxG.width / 2, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
+				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
 				add(buttonDodge = createHint(0, offsetFir, FlxG.width, Std.int(FlxG.height / 4), 0xFFFF00));
 			case DOUBLE:
-				add(buttonLeft = createHint(0, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
-				add(buttonDown = createHint(FlxG.width / 4, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
-				add(buttonUp = createHint(FlxG.width / 2, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
-				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
+				add(buttonLeft = createHint(0, offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
+				add(buttonDown = createHint(FlxG.width / 4, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
+				add(buttonUp = createHint(FlxG.width / 2, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
+				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
 				add(buttonDodge = createHint(Std.int(FlxG.width / 2), offsetFir, Std.int(FlxG.width / 2), Std.int(FlxG.height / 4), 0xFFFF00));
 				add(buttonAttackLeft = createHint(0, offsetFir, Std.int(FlxG.width / 2), Std.int(FlxG.height / 4), 0xFF0000));
 			case TRIPLE:
-				add(buttonLeft = createHint(0, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
-				add(buttonDown = createHint(FlxG.width / 4, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
-				add(buttonUp = createHint(FlxG.width / 2, 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
-				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), 0 + offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
+				add(buttonLeft = createHint(0, offsetSec, Std.int(FlxG.width / 4), 540, 0xFF00FF));
+				add(buttonDown = createHint(FlxG.width / 4, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FFFF));
+				add(buttonUp = createHint(FlxG.width / 2, offsetSec, Std.int(FlxG.width / 4), 540, 0x00FF00));
+				add(buttonRight = createHint((FlxG.width / 2) + (FlxG.width / 4), offsetSec, Std.int(FlxG.width / 4), 540, 0xFF0000));
 				add(buttonAttackRight = createHint(Std.int(FlxG.width / 3) * 2, offsetFir, Std.int(FlxG.width / 3), Std.int(FlxG.height / 4), 0xFF0000));
 				add(buttonDodge = createHint(Std.int(FlxG.width / 3), offsetFir, Std.int(FlxG.width / 3), Std.int(FlxG.height / 4), 0xFFFF00));
 				add(buttonAttackLeft = createHint(0, offsetFir, Std.int(FlxG.width / 3), Std.int(FlxG.height / 4), 0xFF0000));
 		}
+
+		scrollFactor.set();
 	}
 
 	/**
@@ -100,13 +97,10 @@ class FlxHitbox extends FlxSpriteGroup
 	{
 		var hintTween:FlxTween = null;
 		var hint:FlxButton = new FlxButton(X, Y);
-		hint.loadGraphic(Assets.getBitmapData('assets/android/hint.png'));
-		hint.setGraphicSize(Width, Height);
-		hint.updateHitbox();
+		hint.makeGraphic(Width, Height, Color);
 		hint.solid = false;
 		hint.immovable = true;
 		hint.scrollFactor.set();
-		hint.color = Color;
 		hint.alpha = 0.00001;
 		hint.onDown.callback = function()
 		{

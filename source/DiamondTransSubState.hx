@@ -42,12 +42,10 @@ class DiamondTransSubState extends FlxSubState
 		shader.progress.value = [0.0];
 		shader.reverse.value = [false];
 
-		rect = new FlxSprite(0, 0);
-		rect.makeGraphic(1, 1, 0xFF000000);
-		rect.scale.set(FlxG.width, FlxG.height);
-		rect.origin.set();
+		rect = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xFF000000);
+		rect.scrollFactor.set();
 		rect.shader = shader;
-		rect.visible = false;
+		rect.alpha = 0.00001;
 		add(rect);
 
 		if (fi)
@@ -62,7 +60,7 @@ class DiamondTransSubState extends FlxSubState
 	{
 		trace("fade initiated");
 
-		rect.visible = true;
+		rect.alpha = 1;
 		shader.progress.value = [from];
 		shader.reverse.value = [reverse];
 

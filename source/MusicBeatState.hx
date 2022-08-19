@@ -49,7 +49,7 @@ class MusicBeatState extends FNFState
 	public function removeVirtualPad()
 	{
 		if (trackedinputs != [])
-			controls.removeFlxInput(trackedinputs);
+			controls.removeAControlsInput(trackedinputs);
 
 		if (virtualPad != null)
 			remove(virtualPad);
@@ -58,7 +58,6 @@ class MusicBeatState extends FNFState
 	public function addAndroidControls(mechsType:Modes = DEFAULT)
 	{
 		androidControls = new AndroidControls(mechsType);
-		androidControls.alpha = 0.8;
 
 		controls.setHitBox(androidControls.hitbox, mechsType);
 		trackedinputs = controls.trackedinputs;
@@ -76,7 +75,7 @@ class MusicBeatState extends FNFState
 	public function removeAndroidControls()
 	{
 		if (trackedinputs != [])
-			controls.removeFlxInput(trackedinputs);
+			controls.removeAControlsInput(trackedinputs);
 
 		if (androidControls != null)
 			remove(androidControls);
@@ -98,7 +97,7 @@ class MusicBeatState extends FNFState
 	{
 		#if android
 		if (trackedinputs != [])
-			controls.removeFlxInput(trackedinputs);
+			controls.removeAControlsInput(trackedinputs);
 		#end
 
 		super.destroy();

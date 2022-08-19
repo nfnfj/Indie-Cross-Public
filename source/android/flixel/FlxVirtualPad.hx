@@ -49,8 +49,6 @@ class FlxVirtualPad extends FlxSpriteGroup
 	{
 		super();
 
-		scrollFactor.set();
-
 		switch (DPad)
 		{
 			case UP_DOWN:
@@ -131,6 +129,8 @@ class FlxVirtualPad extends FlxSpriteGroup
 				add(buttonA = createButton(FlxG.width - 132, FlxG.height - 135, 132, 127, 'a', 0xFF0000));
 			case NONE: // do nothing
 		}
+
+		scrollFactor.set();
 	}
 
 	/**
