@@ -265,15 +265,18 @@ class OptionsMenu extends MusicBeatState
 				if (currentSelectedCat.getOptions()[curSelected].getAccept())
 				{
 					catOption();
+					FlxG.save.flush();
 				}
 				else
 				{
 					offsetChange();
+					FlxG.save.flush();
 				}
 			}
 			else
 			{
 				offsetChange();
+				FlxG.save.flush();
 			}
 		}
 	}
@@ -283,20 +286,15 @@ class OptionsMenu extends MusicBeatState
 		if ((FlxG.keys.pressed.SHIFT #if android || virtualPad.buttonC.pressed #end)
 			|| !currentSelectedCat.getOptions()[curSelected].allowFastChange)
 		{
-			if (controls.RIGHT_P)
-				currentSelectedCat.getOptions()[curSelected].right();
-			FlxG.save.flush();
-			if (controls.LEFT_P)
-				currentSelectedCat.getOptions()[curSelected].left();
-			FlxG.save.flush();
-		}
-		else
-		{
 			if (controls.RIGHT)
 				currentSelectedCat.getOptions()[curSelected].right();
 			else if (controls.LEFT)
 				currentSelectedCat.getOptions()[curSelected].left();
 		}
+		else if (controls.RIGHT_P)
+			currentSelectedCat.getOptions()[curSelected].right();
+		else if (controls.LEFT_P)
+			currentSelectedCat.getOptions()[curSelected].left();
 
 		versionShit.text = currentSelectedCat.getOptions()[curSelected].getValue();
 		if (currentDescription != '')
@@ -309,14 +307,14 @@ class OptionsMenu extends MusicBeatState
 	{
 		if (FlxG.keys.pressed.SHIFT #if android || virtualPad.buttonC.pressed #end)
 		{
-			if (controls.RIGHT_P)
+			if (controls.RIGHT)
 				FlxG.save.data.offset += 0.1;
-			else if (controls.LEFT_P)
+			else if (controls.LEFT)
 				FlxG.save.data.offset -= 0.1;
 		}
-		else if (controls.RIGHT)
+		else if (controls.RIGHT_P)
 			FlxG.save.data.offset += 0.1;
-		else if (controls.LEFT)
+		else if (controls.LEFT_P)
 			FlxG.save.data.offset -= 0.1;
 
 		versionShit.text = "Offset (Left, Right, Shift for slow): " + HelperFunctions.truncateFloat(FlxG.save.data.offset, 2) + " - Description - "
