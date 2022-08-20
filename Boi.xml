@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="DodgeMechs3.png">
+<SubTexture name="idle0000" x="0" y="0" width="390" height="931" frameX="-6" frameY="-24" frameWidth="396" frameHeight="982" />
+</TextureAtlas>

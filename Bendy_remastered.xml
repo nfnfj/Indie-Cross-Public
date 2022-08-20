@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bendy_remastered.png"><SubTexture name="B-Right0000" x="0" y="2392" width="622" height="418" frameX="-12" frameY="-111" frameWidth="634" frameHeight="534" />
+<SubTexture name="B-Right0001" x="2510" y="864" width="614" height="429" frameX="-9" frameY="-102" frameWidth="634" frameHeight="534" />
+<SubTexture name="B-Right0002" x="2510" y="0" width="614" height="432" frameX="-6" frameY="-99" frameWidth="634" frameHeight="534" />
+<SubTexture name="B-Right0003" x="2510" y="432" width="614" height="432" frameX="-6" frameY="-99" frameWidth="634" frameHeight="534" />
+<SubTexture name="Bendy Idle0000" x="1453" y="1849" width="421" height="534" frameX="0" frameY="-12" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0001" x="1453" y="1849" width="421" height="534" frameX="0" frameY="-12" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0002" x="2093" y="1090" width="417" height="542" frameX="-4" frameY="-4" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0003" x="2093" y="1090" width="417" height="542" frameX="-4" frameY="-4" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0004" x="2093" y="0" width="417" height="545" frameX="-4" frameY="-1" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0005" x="2093" y="0" width="417" height="545" frameX="-4" frameY="-1" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0006" x="2093" y="545" width="417" height="545" frameX="-4" frameY="-1" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0007" x="2093" y="545" width="417" height="545" frameX="-4" frameY="-1" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0008" x="2093" y="545" width="417" height="545" frameX="-4" frameY="-1" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0009" x="1138" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0010" x="1138" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0011" x="1138" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0012" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0013" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0014" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0015" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0016" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0017" x="1555" y="1292" width="417" height="546" frameX="-4" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0018" x="1073" y="652" width="419" height="547" frameX="-3" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Bendy Idle0019" x="1073" y="652" width="419" height="547" frameX="-3" frameY="0" frameWidth="422" frameHeight="547" />
+<SubTexture name="Left0000" x="0" y="1849" width="579" height="543" frameX="0" frameY="-14" frameWidth="621" frameHeight="558" />
+<SubTexture name="Left0001" x="0" y="1292" width="569" height="557" frameX="-16" frameY="0" frameWidth="621" frameHeight="558" />
+<SubTexture name="Left0002" x="0" y="1292" width="569" height="557" frameX="-16" frameY="0" frameWidth="621" frameHeight="558" />
+<SubTexture name="Left0003" x="569" y="1292" width="569" height="555" frameX="-20" frameY="-2" frameWidth="621" frameHeight="558" />
+<SubTexture name="Left0004" x="569" y="1292" width="569" height="555" frameX="-20" frameY="-2" frameWidth="621" frameHeight="558" />
+<SubTexture name="Left0005" x="569" y="1292" width="569" height="555" frameX="-20" frameY="-2" frameWidth="621" frameHeight="558" />
+<SubTexture name="Scream0000" x="1554" y="639" width="418" height="548" frameX="-62" frameY="0" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0001" x="1554" y="639" width="418" height="548" frameX="-62" frameY="0" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0002" x="1554" y="639" width="418" height="548" frameX="-62" frameY="0" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0003" x="579" y="1849" width="437" height="543" frameX="-52" frameY="-5" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0004" x="579" y="1849" width="437" height="543" frameX="-52" frameY="-4" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0005" x="1874" y="1849" width="535" height="526" frameX="0" frameY="-22" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0006" x="3124" y="0" width="618" height="385" frameX="-77" frameY="-173" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0007" x="622" y="2392" width="590" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0008" x="1212" y="2392" width="591" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0009" x="2398" y="2392" width="584" height="393" frameX="-89" frameY="-166" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0010" x="2510" y="1293" width="591" height="397" frameX="-87" frameY="-162" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0011" x="1803" y="2392" width="595" height="394" frameX="-85" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0012" x="2510" y="1690" width="591" height="397" frameX="-87" frameY="-162" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0013" x="622" y="2392" width="590" height="394" frameX="-87" frameY="-163" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0014" x="1212" y="2392" width="591" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0015" x="2398" y="2392" width="584" height="393" frameX="-89" frameY="-164" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0016" x="2510" y="1293" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0017" x="1803" y="2392" width="595" height="394" frameX="-85" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0018" x="2510" y="1690" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0019" x="622" y="2392" width="590" height="394" frameX="-87" frameY="-163" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0020" x="1212" y="2392" width="591" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0021" x="2398" y="2392" width="584" height="393" frameX="-89" frameY="-164" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0022" x="2510" y="1293" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0023" x="1803" y="2392" width="595" height="394" frameX="-85" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0024" x="2510" y="1690" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0025" x="622" y="2392" width="590" height="394" frameX="-87" frameY="-163" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0026" x="1212" y="2392" width="591" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0027" x="2398" y="2392" width="584" height="393" frameX="-89" frameY="-164" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0028" x="2510" y="1293" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0029" x="1803" y="2392" width="595" height="394" frameX="-85" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0030" x="2510" y="1690" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0031" x="622" y="2392" width="590" height="394" frameX="-87" frameY="-163" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0032" x="1212" y="2392" width="591" height="394" frameX="-87" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0033" x="2398" y="2392" width="584" height="393" frameX="-89" frameY="-164" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0034" x="2510" y="1293" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0035" x="1803" y="2392" width="595" height="394" frameX="-85" frameY="-165" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0036" x="2510" y="1690" width="591" height="397" frameX="-87" frameY="-161" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0037" x="1016" y="1849" width="437" height="543" frameX="-52" frameY="-4" frameWidth="696" frameHeight="559" />
+<SubTexture name="Scream0038" x="1554" y="639" width="418" height="548" frameX="-62" frameY="0" frameWidth="696" frameHeight="559" />
+<SubTexture name="Up0000" x="0" y="0" width="500" height="652" frameX="-20" frameY="0" frameWidth="580" frameHeight="655" />
+<SubTexture name="Up0001" x="500" y="0" width="520" height="641" frameX="-10" frameY="-11" frameWidth="580" frameHeight="655" />
+<SubTexture name="Up0002" x="1020" y="0" width="534" height="640" frameX="-4" frameY="-13" frameWidth="580" frameHeight="655" />
+<SubTexture name="Up0003" x="0" y="652" width="534" height="640" frameX="-4" frameY="-13" frameWidth="580" frameHeight="655" />
+<SubTexture name="Up0004" x="534" y="652" width="539" height="639" frameX="-2" frameY="-14" frameWidth="580" frameHeight="655" />
+<SubTexture name="Up0005" x="1554" y="0" width="539" height="639" frameX="-2" frameY="-14" frameWidth="580" frameHeight="655" />
+<SubTexture name="bendydown0000" x="3124" y="1695" width="512" height="310" frameX="0" frameY="-200" frameWidth="512" frameHeight="515" />
+<SubTexture name="bendydown0001" x="3124" y="1047" width="498" height="324" frameX="-5" frameY="-187" frameWidth="512" frameHeight="515" />
+<SubTexture name="bendydown0002" x="3124" y="1371" width="498" height="324" frameX="-5" frameY="-187" frameWidth="512" frameHeight="515" />
+<SubTexture name="bendydown0003" x="3124" y="385" width="492" height="331" frameX="-7" frameY="-180" frameWidth="512" frameHeight="515" />
+<SubTexture name="bendydown0004" x="3124" y="716" width="492" height="331" frameX="-7" frameY="-180" frameWidth="512" frameHeight="515" />
+</TextureAtlas>

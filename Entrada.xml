@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Entrada.png"><SubTexture name="Intro instance 0000" x="0" y="0" width="245" height="1152" frameX="-81" frameY="-39" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0001" x="245" y="0" width="357" height="966" frameX="-47" frameY="-571" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0002" x="602" y="0" width="424" height="952" frameX="-49" frameY="-805" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0003" x="2377" y="1175" width="572" height="374" frameX="-1" frameY="-1408" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0004" x="2377" y="798" width="628" height="377" frameX="-2" frameY="-1412" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0005" x="2377" y="406" width="669" height="392" frameX="-3" frameY="-1415" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0006" x="2377" y="0" width="697" height="406" frameX="-3" frameY="-1415" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0007" x="1461" y="1582" width="721" height="412" frameX="-4" frameY="-1418" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0008" x="0" y="1582" width="738" height="420" frameX="-4" frameY="-1418" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0009" x="1566" y="1152" width="753" height="423" frameX="-5" frameY="-1420" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0010" x="796" y="1152" width="770" height="427" frameX="-5" frameY="-1420" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0011" x="1582" y="432" width="784" height="428" frameX="-5" frameY="-1422" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0012" x="1582" y="0" width="795" height="432" frameX="-5" frameY="-1422" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0013" x="0" y="1152" width="796" height="430" frameX="-6" frameY="-1423" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0014" x="738" y="1582" width="723" height="418" frameX="-6" frameY="-1423" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0015" x="2377" y="1549" width="546" height="358" frameX="-6" frameY="-1425" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0016" x="0" y="2002" width="544" height="356" frameX="-8" frameY="-1425" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0017" x="0" y="2002" width="544" height="356" frameX="-8" frameY="-1424" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0018" x="1026" y="603" width="547" height="523" frameX="-8" frameY="-1270" frameWidth="806" frameHeight="1857" />
+<SubTexture name="Intro instance 0019" x="1026" y="0" width="556" height="603" frameX="0" frameY="-1187" frameWidth="806" frameHeight="1857" />
+</TextureAtlas>

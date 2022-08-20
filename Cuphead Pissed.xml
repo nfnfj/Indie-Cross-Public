@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Cuphead Pissed.png"><SubTexture name="1 instance 0000" x="1177" y="1174" width="235" height="259" frameX="0" frameY="-2" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0001" x="1412" y="1174" width="235" height="259" frameX="-1" frameY="-2" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0002" x="1396" y="787" width="235" height="260" frameX="0" frameY="-1" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0003" x="712" y="1174" width="231" height="260" frameX="-1" frameY="-1" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0004" x="0" y="1435" width="239" height="259" frameX="0" frameY="-2" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0005" x="1396" y="526" width="233" height="261" frameX="-1" frameY="0" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0006" x="239" y="1435" width="232" height="259" frameX="0" frameY="-2" frameWidth="242" frameHeight="261" />
+<SubTexture name="1 instance 0007" x="943" y="1174" width="234" height="260" frameX="-1" frameY="-1" frameWidth="242" frameHeight="261" />
+<SubTexture name="DIE BITCH instance 0000" x="984" y="1694" width="316" height="250" frameX="0" frameY="-2" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0001" x="2031" y="0" width="289" height="249" frameX="-3" frameY="-3" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0002" x="1727" y="504" width="302" height="251" frameX="-3" frameY="-1" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0003" x="0" y="1945" width="312" height="249" frameX="-4" frameY="-3" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0004" x="1727" y="755" width="289" height="251" frameX="-3" frameY="-1" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0005" x="1727" y="0" width="304" height="252" frameX="-1" frameY="0" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0006" x="1300" y="1694" width="313" height="250" frameX="-3" frameY="-2" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0007" x="312" y="1945" width="291" height="249" frameX="-1" frameY="-3" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0008" x="0" y="1694" width="305" height="251" frameX="0" frameY="-1" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0009" x="603" y="1945" width="313" height="249" frameX="-3" frameY="-3" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0010" x="1727" y="1006" width="289" height="251" frameX="-3" frameY="-1" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0011" x="1727" y="252" width="301" height="252" frameX="-4" frameY="0" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0012" x="1613" y="1694" width="313" height="250" frameX="-3" frameY="-2" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0013" x="916" y="1945" width="291" height="249" frameX="-1" frameY="-3" frameWidth="317" frameHeight="253" />
+<SubTexture name="DIE BITCH instance 0014" x="1727" y="1257" width="302" height="251" frameX="-3" frameY="-1" frameWidth="317" frameHeight="253" />
+<SubTexture name="Down instance 0000" x="2619" y="713" width="295" height="213" frameX="0" frameY="-29" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0001" x="2619" y="479" width="300" height="234" frameX="-4" frameY="-9" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0002" x="2619" y="479" width="300" height="234" frameX="-4" frameY="-9" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0003" x="2619" y="241" width="302" height="238" frameX="-4" frameY="-5" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0004" x="2619" y="241" width="302" height="238" frameX="-4" frameY="-5" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0005" x="2619" y="0" width="304" height="241" frameX="-3" frameY="-2" frameWidth="308" frameHeight="243" />
+<SubTexture name="Down instance 0006" x="2619" y="0" width="304" height="241" frameX="-3" frameY="-2" frameWidth="308" frameHeight="243" />
+<SubTexture name="Left instance 0000" x="1121" y="1435" width="358" height="254" frameX="0" frameY="-11" frameWidth="360" frameHeight="266" />
+<SubTexture name="Left instance 0001" x="769" y="278" width="279" height="266" frameX="-25" frameY="0" frameWidth="360" frameHeight="266" />
+<SubTexture name="Left instance 0002" x="769" y="278" width="279" height="266" frameX="-25" frameY="0" frameWidth="360" frameHeight="266" />
+<SubTexture name="Left instance 0003" x="843" y="1435" width="278" height="257" frameX="-31" frameY="-9" frameWidth="360" frameHeight="266" />
+<SubTexture name="Left instance 0004" x="843" y="1435" width="278" height="257" frameX="-31" frameY="-9" frameWidth="360" frameHeight="266" />
+<SubTexture name="Left instance 0005" x="2031" y="249" width="277" height="248" frameX="-35" frameY="-18" frameWidth="360" frameHeight="266" />
+<SubTexture name="PewRight instance 0000" x="0" y="1174" width="333" height="261" frameX="0" frameY="-15" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewRight instance 0001" x="1060" y="0" width="336" height="277" frameX="-1" frameY="0" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewRight instance 0002" x="0" y="897" width="346" height="277" frameX="-1" frameY="0" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewRight instance 0003" x="346" y="897" width="360" height="277" frameX="0" frameY="0" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewRight instance 0004" x="1060" y="277" width="294" height="277" frameX="0" frameY="0" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewRight instance 0005" x="1060" y="277" width="294" height="277" frameX="0" frameY="0" frameWidth="360" frameHeight="278" />
+<SubTexture name="PewUp instance 0000" x="227" y="0" width="295" height="309" frameX="-14" frameY="0" frameWidth="334" frameHeight="310" />
+<SubTexture name="PewUp instance 0001" x="1060" y="554" width="311" height="273" frameX="0" frameY="-36" frameWidth="334" frameHeight="310" />
+<SubTexture name="PewUp instance 0002" x="706" y="897" width="321" height="273" frameX="0" frameY="-36" frameWidth="334" frameHeight="310" />
+<SubTexture name="PewUp instance 0003" x="1396" y="0" width="331" height="263" frameX="-3" frameY="-45" frameWidth="334" frameHeight="310" />
+<SubTexture name="PewUp instance 0004" x="1396" y="263" width="308" height="263" frameX="-3" frameY="-45" frameWidth="334" frameHeight="310" />
+<SubTexture name="PewUp instance 0005" x="305" y="1694" width="311" height="251" frameX="-3" frameY="-57" frameWidth="334" frameHeight="310" />
+<SubTexture name="Pewleft instance 0000" x="308" y="2441" width="335" height="237" frameX="0" frameY="-12" frameWidth="362" frameHeight="249" />
+<SubTexture name="Pewleft instance 0001" x="1207" y="1945" width="307" height="249" frameX="-33" frameY="0" frameWidth="362" frameHeight="249" />
+<SubTexture name="Pewleft instance 0002" x="1514" y="1945" width="316" height="249" frameX="-33" frameY="0" frameWidth="362" frameHeight="249" />
+<SubTexture name="Pewleft instance 0003" x="0" y="2194" width="327" height="247" frameX="-35" frameY="-2" frameWidth="362" frameHeight="249" />
+<SubTexture name="Pewleft instance 0004" x="2320" y="248" width="277" height="247" frameX="-35" frameY="-2" frameWidth="362" frameHeight="249" />
+<SubTexture name="Pewleft instance 0005" x="2320" y="248" width="277" height="247" frameX="-35" frameY="-1" frameWidth="362" frameHeight="249" />
+<SubTexture name="Phase 2 instance 0000" x="985" y="2194" width="303" height="244" frameX="0" frameY="0" frameWidth="304" frameHeight="244" />
+<SubTexture name="Phase 2 starts instance 0000" x="1944" y="2194" width="303" height="243" frameX="-3" frameY="-2" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0001" x="327" y="2194" width="305" height="245" frameX="-2" frameY="0" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0002" x="327" y="2194" width="305" height="245" frameX="-2" frameY="0" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0003" x="0" y="2441" width="308" height="240" frameX="0" frameY="-4" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0004" x="0" y="2441" width="308" height="240" frameX="0" frameY="-4" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0005" x="0" y="2441" width="308" height="240" frameX="0" frameY="-4" frameWidth="309" frameHeight="245" />
+<SubTexture name="Phase 2 starts instance 0006" x="0" y="2441" width="308" height="240" frameX="0" frameY="-4" frameWidth="309" frameHeight="245" />
+<SubTexture name="Right instance 0000" x="1027" y="897" width="345" height="265" frameX="-3" frameY="-12" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0001" x="294" y="338" width="289" height="278" frameX="-8" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0002" x="294" y="338" width="289" height="278" frameX="-8" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0003" x="769" y="0" width="291" height="278" frameX="-5" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0004" x="769" y="0" width="291" height="278" frameX="-5" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0005" x="0" y="619" width="293" height="278" frameX="-2" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0006" x="0" y="619" width="293" height="278" frameX="-2" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0007" x="293" y="619" width="293" height="278" frameX="-1" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0008" x="293" y="619" width="293" height="278" frameX="-1" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Right instance 0009" x="586" y="619" width="294" height="278" frameX="0" frameY="0" frameWidth="349" frameHeight="279" />
+<SubTexture name="Roundattack instance 0000" x="632" y="2194" width="353" height="245" frameX="-9" frameY="-16" frameWidth="389" frameHeight="262" />
+<SubTexture name="Roundattack instance 0001" x="2247" y="2194" width="368" height="243" frameX="0" frameY="-18" frameWidth="389" frameHeight="262" />
+<SubTexture name="Roundattack instance 0002" x="616" y="1694" width="368" height="251" frameX="-8" frameY="-10" frameWidth="389" frameHeight="262" />
+<SubTexture name="Roundattack instance 0003" x="471" y="1435" width="372" height="259" frameX="-9" frameY="-2" frameWidth="389" frameHeight="262" />
+<SubTexture name="Roundattack instance 0004" x="333" y="1174" width="379" height="261" frameX="-9" frameY="0" frameWidth="389" frameHeight="262" />
+<SubTexture name="Up instance 0000" x="0" y="0" width="227" height="338" frameX="-12" frameY="0" frameWidth="305" frameHeight="338" />
+<SubTexture name="Up instance 0001" x="522" y="0" width="247" height="290" frameX="0" frameY="-46" frameWidth="305" frameHeight="338" />
+<SubTexture name="Up instance 0002" x="522" y="0" width="247" height="290" frameX="0" frameY="-45" frameWidth="305" frameHeight="338" />
+<SubTexture name="Up instance 0003" x="0" y="338" width="294" height="281" frameX="0" frameY="-55" frameWidth="305" frameHeight="338" />
+<SubTexture name="Up instance 0004" x="0" y="338" width="294" height="281" frameX="0" frameY="-55" frameWidth="305" frameHeight="338" />
+<SubTexture name="pewdown instance 0000" x="643" y="2441" width="329" height="213" frameX="0" frameY="-34" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0001" x="1288" y="2194" width="323" height="244" frameX="-10" frameY="-4" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0002" x="1611" y="2194" width="333" height="244" frameX="-10" frameY="-4" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0003" x="1830" y="1945" width="345" height="248" frameX="-11" frameY="0" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0004" x="2320" y="0" width="299" height="248" frameX="-11" frameY="0" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0005" x="2320" y="0" width="299" height="248" frameX="-11" frameY="0" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0006" x="2320" y="0" width="299" height="248" frameX="-11" frameY="0" frameWidth="357" frameHeight="248" />
+<SubTexture name="pewdown instance 0007" x="2320" y="0" width="299" height="248" frameX="-11" frameY="0" frameWidth="357" frameHeight="248" />
+</TextureAtlas>

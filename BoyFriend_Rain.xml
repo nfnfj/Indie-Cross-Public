@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BoyFriend_Rain.png"><SubTexture name="BF NOTE DOWN instance 0000" x="460" y="1713" width="391" height="345" frameX="0" frameY="-26" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE DOWN instance 0001" x="1506" y="814" width="371" height="361" frameX="-7" frameY="-12" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE DOWN instance 0002" x="1506" y="814" width="371" height="361" frameX="-7" frameY="-12" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE DOWN instance 0003" x="1884" y="1143" width="372" height="364" frameX="-6" frameY="-9" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE DOWN instance 0004" x="1884" y="1143" width="372" height="364" frameX="-6" frameY="-9" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE DOWN instance 0005" x="1884" y="776" width="373" height="367" frameX="-5" frameY="-6" frameWidth="391" frameHeight="374" />
+<SubTexture name="BF NOTE LEFT instance 0000" x="1884" y="0" width="442" height="389" frameX="0" frameY="-15" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE LEFT instance 0001" x="408" y="1306" width="387" height="406" frameX="-34" frameY="0" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE LEFT instance 0002" x="408" y="1306" width="387" height="406" frameX="-34" frameY="0" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE LEFT instance 0003" x="1506" y="0" width="378" height="407" frameX="-43" frameY="0" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE LEFT instance 0004" x="1506" y="0" width="378" height="407" frameX="-43" frameY="0" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE LEFT instance 0005" x="1506" y="407" width="374" height="407" frameX="-50" frameY="0" frameWidth="442" frameHeight="407" />
+<SubTexture name="BF NOTE RIGHT instance 0000" x="0" y="1713" width="460" height="389" frameX="-17" frameY="-20" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE RIGHT instance 0001" x="387" y="471" width="407" height="411" frameX="-28" frameY="0" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE RIGHT instance 0002" x="387" y="471" width="407" height="411" frameX="-28" frameY="0" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE RIGHT instance 0003" x="1107" y="0" width="399" height="409" frameX="-21" frameY="-2" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE RIGHT instance 0004" x="1107" y="0" width="399" height="409" frameX="-21" frameY="-2" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE RIGHT instance 0005" x="1107" y="409" width="396" height="408" frameX="-12" frameY="-3" frameWidth="477" frameHeight="412" />
+<SubTexture name="BF NOTE UP instance 0000" x="0" y="0" width="355" height="471" frameX="-18" frameY="0" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF NOTE UP instance 0001" x="355" y="0" width="372" height="440" frameX="-10" frameY="-26" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF NOTE UP instance 0002" x="355" y="0" width="372" height="440" frameX="-10" frameY="-26" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF NOTE UP instance 0003" x="727" y="0" width="380" height="433" frameX="-6" frameY="-34" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF NOTE UP instance 0004" x="727" y="0" width="380" height="433" frameX="-6" frameY="-34" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF NOTE UP instance 0005" x="0" y="471" width="387" height="426" frameX="-3" frameY="-40" frameWidth="394" frameHeight="471" />
+<SubTexture name="BF idle dance instance 0000" x="1884" y="389" width="437" height="387" frameX="0" frameY="-19" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0001" x="1884" y="389" width="437" height="387" frameX="0" frameY="-19" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0002" x="1206" y="1306" width="412" height="398" frameX="-13" frameY="-9" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0003" x="1206" y="1306" width="412" height="398" frameX="-13" frameY="-8" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0004" x="795" y="1306" width="411" height="403" frameX="-14" frameY="-5" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0005" x="795" y="1306" width="411" height="403" frameX="-14" frameY="-4" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0006" x="0" y="1306" width="408" height="407" frameX="-16" frameY="-2" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0007" x="0" y="1306" width="408" height="407" frameX="-16" frameY="-2" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0008" x="814" y="897" width="407" height="408" frameX="-17" frameY="-1" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0009" x="814" y="897" width="407" height="408" frameX="-17" frameY="-1" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0010" x="0" y="897" width="407" height="409" frameX="-17" frameY="0" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0011" x="0" y="897" width="407" height="409" frameX="-17" frameY="0" frameWidth="437" frameHeight="409" />
+<SubTexture name="BF idle dance instance 0012" x="407" y="897" width="407" height="409" frameX="-17" frameY="0" frameWidth="437" frameHeight="409" />
+</TextureAtlas>
