@@ -1,8 +1,8 @@
 package;
 
-import flixel.graphics.tile.FlxGraphicsShader;
+import flixel.system.FlxAssets.FlxShader;
 
-class DiamondTransShader extends FlxGraphicsShader
+class DiamondTransShader extends FlxShader
 {
 	@:glFragmentSource("
     #pragma header
