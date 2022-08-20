@@ -97,15 +97,22 @@ class FlxHitbox extends FlxSpriteGroup
 
 	private function createHintGraphic(Width:Int, Height:Int, Color:Int = 0xFFFFFF):BitmapData
 	{
-		var bitmap = new BitmapData(Width, Height, true);
+		var bitmap = new BitmapData(Width, Height, true, 0);
 		var sh = new Shape();
 		var g = sh.graphics;
 
+		var lineSize = 3;
+
 		g.beginFill(Color);
-		g.lineStyle(10, Color, 1);
+		g.lineStyle(lineSize, Color, 1);
 		g.drawRect(0, 0, Width, Height);
+		g.lineStyle(0, 0, 0);
+		g.drawRect(lineSize, lineSize, Width - (lineSize * 2), Height - (lineSize * 2));
 		g.endFill();
-		// g.drawQuads()
+
+		g.beginGradientFill(RADIAL, [Color, FlxColor.TRANSPARENT], [0.6, 0], [0, 255], null, null, null, 0.5);
+		g.drawRect(lineSize, lineSize, Width - (lineSize * 2), Height - (lineSize * 2));
+		g.endFill();
 
 		bitmap.draw(sh);
 
@@ -116,7 +123,6 @@ class FlxHitbox extends FlxSpriteGroup
 	{
 		var hintTween:FlxTween = null;
 		var hint:FlxButton = new FlxButton(X, Y);
-		// hint.makeGraphic(Width, Height, Color);
 		hint.loadGraphic(createHintGraphic(Width, Height, Color));
 		hint.solid = false;
 		hint.immovable = true;
